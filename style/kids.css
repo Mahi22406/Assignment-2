@@ -1,0 +1,96 @@
+
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+/* navbar related styles */
+section{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    /* padding: 10px; */
+    width: 1160px;
+    height: 62px;
+
+
+}
+ul a{
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+
+
+
+.logo-school{
+    display: flex;
+}
+.home{
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #FEA301;
+}
+.about{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #01ACFD;
+}
+.facilities{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #05D4DF;
+}
+.admission{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #5D58EF;
+}
+.btn{
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #FEA301;
+    border-radius: 12px;
+    padding: 10px;
+    border: none;
+}
+/* banner related styles */
+.banner{
+    display: flex;
+    width: 1150px;
+    height: 575px;
+    margin:  auto;
+    gap: 50px;
+}
+.banner-heading{
+    font-size: 3.8rem;
+    font-weight: bold;
+
+}
+.banner-description{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.banner-btn{
+    font-size: 1.25rem;
+    font-weight: bold;
+    background-color:#111111;
+    border-radius: 12px;
+    color:#FFFFFF;
+    padding: 10px;
+    margin-top: 20px;
+}
+.banner-img{
+    width: 460px;
+    height: 575px;
+}
+.empowering{
+    color:#FEA301 ;
+}
+.vision{
+    color:#01ACFD ;
+}
