@@ -140,10 +140,11 @@ ul a{
 .curriculum{
     justify-content: center;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 80px;
     font-weight: bold;
     font-size: 2.875rem;
 }
+
 .card-description{
     font-size: 1rem;
     font-weight: 500;
@@ -239,8 +240,8 @@ color: #F0AA00;
    
 }
 .btn-middle{
-    margin-top: 60px;
-    margin-bottom: 80px;
+    margin-top: 50px;
+    margin-bottom: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -257,15 +258,20 @@ color: #F0AA00;
     border: none;
 }
 
-.btn-2{
+.button{
     width: 197px;
     height: 50px;
     background-color:#111111 ;
     color: white;
     font-weight: bold;
-    margin-bottom: 60px;
-    margin-top: 80px;
+    margin-bottom: 50px;
+    margin-top: 50px;
     border-radius: 12px;
+    
+}
+.btn-2{
+    display: flex;
+    justify-content: center;
 }
 .story-description{
     padding: 20px;
@@ -345,15 +351,59 @@ color: #F0AA00;
     font-size: 15px;
     font-weight: 600;
 }
+marquee{
+    border: 1px solid white;
+}
+.marquee{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+    color: #5D58EF;
+}
 @media screen and (max-width:576px) {
     .foot-container, .curriculum-container, .curriculum{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        width: 100%;
-    }
-    .banner{
-        display: flex;
        
     }
+    
+    .banner{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .nav-content, .btn, .school{
+        display: none;
+    }
+    .curriculum{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .curriculum-container{
+        margin-right: auto;
+        text-align: center;
+        justify-content: center;
+    }
+    .story-1{
+        display: none;
+    }
+    .story-2345{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .btn-middle{
+        display: none;
+    }
+    .footer-2nd{
+        margin-left: 15px;
+    }
+    .footer-3{
+        margin-right:10px;
+    }
+    .btn-2{
+        margin-bottom:40px ;
+    }
+   
     
 }
